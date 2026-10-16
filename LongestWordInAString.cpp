@@ -22,5 +22,7 @@ int main(){
         }
 
     }
+    int len = j-i;
+    if(len>maxlen) maxlen=len;
     cout<<maxlen<<endl;
 }
